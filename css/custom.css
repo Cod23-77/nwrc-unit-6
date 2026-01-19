@@ -1,0 +1,110 @@
+html, body {
+  background-color: #ffffff;
+  
+}
+
+
+.navbar-custom {
+  background-color: black; 
+  font-family: 'Roboto'; 
+  color: black;
+}
+
+.hero-image {
+  
+  background-image: linear-gradient(
+     rgba(0, 0, 0, 0.5),   
+     rgba(0, 0, 0, 0.5)   
+  ),
+  url("../images/ireland-flag-icon.png"); 
+
+  height: 50vh;                   
+  background-position: center;    
+  background-repeat: no-repeat;   
+  background-size: cover;         
+  position: relative;             
+
+  display: flex;                  
+  align-items: center;            
+  justify-content: center;        
+}
+
+.hero-text h1 {
+  font-size: 3rem;           
+  font-weight: bold;        
+  text-transform: uppercase; 
+  font-family: 'Roboto'; 
+  color: black           
+}
+
+.hero-text p {
+  font-size: 1.2rem;  
+  font-weight: normal; 
+  color: black; 
+  font-family: ' Roboto'; /
+}
+.btn-primary {
+  background-color: aqua; 
+  color: black; 
+  font-weight: bold; 
+}
+
+
+ 
+
+footer {
+background-color: black; 
+color: #fff; 
+font-family: 'Roboto'; 
+text-align: center; 
+padding: 1.5rem 1rem; 
+}
+
+footer p {
+margin: 0;
+font-size: 1rem;
+font-weight: bold;
+}
+footer small {
+display: block;
+margin-top: 0.5rem;
+font-size: 0.9rem;
+}
+
+.site-footer .social-links i {
+margin-left: 5px;
+}
+
+
+.card {
+  border: none;  
+  border-radius: 15px; 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+}
+
+
+.container.my-5 {
+  margin-top: 3rem; 
+  margin-bottom: 3rem; 
+}
+
+.card-img-top {
+  height: 250px; 
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: center; 
+  background: #ffffff; 
+  color:black; 
+}
+.card-title {
+  font-size: 1.5rem; 
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.card-text{
+  font-size: 1rem;
+  font-family: 'Roboto';
+}
