@@ -16,9 +16,9 @@ html, body {
      rgba(0, 0, 0, 0.5),   
      rgba(0, 0, 0, 0.5)   
   ),
-  url("../images/ireland-flag-icon.png"); 
+  url("../images/GAA\ 2.png"); 
 
-  height: 50vh;                   
+  height: 40vh;                   
   background-position: center;    
   background-repeat: no-repeat;   
   background-size: cover;         
@@ -34,13 +34,13 @@ html, body {
   font-weight: bold;        
   text-transform: uppercase; 
   font-family: 'Roboto'; 
-  color: black           
+  color: turquoise          
 }
 
 .hero-text p {
   font-size: 1.2rem;  
   font-weight: normal; 
-  color: black; 
+  color: turquoise; 
   font-family: ' Roboto'; /
 }
 .btn-primary {
@@ -89,13 +89,13 @@ margin-left: 5px;
 }
 
 .card-img-top {
-  height: 250px; 
-  object-fit: cover;
+  height: px; 
+  object-fit: fill;
 }
 
 .card-body {
   text-align: center; 
-  background: #ffffff; 
+  background: turquoise; 
   color:black; 
 }
 .card-title {
@@ -108,3 +108,24 @@ margin-left: 5px;
   font-size: 1rem;
   font-family: 'Roboto';
 }
+
+.accordion {
+      cursor: pointer;
+      padding: 15px;
+      border: none;
+      outline: none;
+      background: #eee;
+      width: 100%;
+      text-align: left;
+    }
+
+    .panel {
+      display: none;
+      padding: 15px;
+      background: #f9f9f9;
+    }
+
+    .panel img {
+      max-width: 100%;
+      height: auto;
+    }
