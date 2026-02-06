@@ -6,8 +6,8 @@ html, body {
 
 .navbar-custom {
   background-color: black; 
-  font-family: 'Roboto'; 
-  color: black;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif; 
+  color: rgb(244, 237, 237);
 }
 
 .hero-image {
@@ -33,7 +33,7 @@ html, body {
   font-size: 3rem;           
   font-weight: bold;        
   text-transform: uppercase; 
-  font-family: 'Roboto'; 
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif; 
   color: turquoise          
 }
 
@@ -41,7 +41,7 @@ html, body {
   font-size: 1.2rem;  
   font-weight: normal; 
   color: turquoise; 
-  font-family: ' Roboto'; /
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif; 
 }
 .btn-primary {
   background-color: aqua; 
@@ -55,7 +55,7 @@ html, body {
 footer {
 background-color: black; 
 color: #fff; 
-font-family: 'Roboto'; 
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif; 
 text-align: center; 
 padding: 1.5rem 1rem; 
 }
@@ -101,12 +101,12 @@ margin-left: 5px;
 .card-title {
   font-size: 1.5rem; 
   font-weight: bold;
-  font-family: 'Roboto';
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif; 
 }
 
 .card-text{
   font-size: 1rem;
-  font-family: 'Roboto';
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif; 
 }
 
 .accordion {
