@@ -75,6 +75,14 @@ font-size: 0.9rem;
 margin-left: 5px;
 }
 
+.row {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  align-items: center;
+  text-align: center;
+ 
+}
 
 .card {
   border: none;  
@@ -117,6 +125,17 @@ margin-left: 5px;
       background: #eee;
       width: 100%;
       text-align: left;
+      ;
+    }
+
+    .accordion button{
+      font-size: 1.2rem;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif; 
+      color: black; 
+      border: none;
+      text-decoration: none;
+
+
     }
 
     .panel {
@@ -128,4 +147,32 @@ margin-left: 5px;
     .panel img {
       max-width: 100%;
       height: auto;
+    }
+
+    .nav-tabs .nav-link.active {
+      font-size: 1.2rem;
+      font-weight: bold;
+       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif; 
+      color: black;
+       background-color:  turquoise; 
+      border: none;
+    }
+
+   .nav-tabs .nav-link {
+      font-size: 1.2rem;
+      font-weight: bold;
+       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif; 
+      color: black;
+     background-color: rgb(255, 255, 255); 
+      border: none;
+    }
+
+
+
+  .tab-content {
+    font-size: 1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif; 
+    background-color:  turquoise; 
+    color: black; 
+    border: none;
     }

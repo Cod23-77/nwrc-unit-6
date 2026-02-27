@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Service page</title>
+    <title>Testing: Landing Page</title>
 
    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap-4.4.1.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
-    <!-- Custom CSS -->
+     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-
@@ -18,7 +18,7 @@ awesome/6.5.0/css/all.min.css"/>
 <body>
 
   <!-- Navigation -->
- <nav class="navbar navbar-expand-lg navbar-custom">
+  <nav class="navbar navbar-expand-lg navbar-custom">
 
    <a class="navbar-brand fw-bold" href="Index.html">Elite Gear</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,7 +60,6 @@ awesome/6.5.0/css/all.min.css"/>
   </div>
 </nav>
 
-
   <!-- Navigation End -->
   
 <!-- Hero Section -->
@@ -70,59 +69,45 @@ awesome/6.5.0/css/all.min.css"/>
   <section class="hero-image">
     <div class="hero-text">
       <h1>Elite Gear</h1>
-      <p>Explore our range of sports Gear</p>  
     </div>
   </section>
 
   <!-- Hero Section-->   
 
    <!-- Services Section -->
-<div class="container my-5">
-        <h2 class="text-center mb-4">Services </h2>
-        <div class="row">
-            <!-- Service 1 -->
-            <div class="col-md-4 mb-4">
-                <div class="card h-5">
-                    <img src="images/Jersey.jpg" class="card-img-top" alt="Customiseable jerseys and Gloves">
-                    <div class="card-body">
-                        <h5 class="card-title">Customiseable Jerseys</h5>
-                        <p class="card-text">£50
-                          <br>
-                          <small>High-quality jerseys for Gaelic football, customizable with your team logo, any number and intials.</small>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- Product 2 -->
-            <div class="col-md-4 mb-4">
-                <div class="card h-5">
-                    <img src="images/GAA Package.jpg" class="card-img-top" alt="GAA Package">
-                    <div class="card-body">
-                        <h5 class="card-title">GAA Package</h5>
-                        <p class="card-text">£88
-                          <br>
-                          <small>Make your team custom kits training gear etc</small>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- Product 3 -->
-            <div class="col-md-4 mb-4">
-                <div class="card h-5">
-                    <img src="images/next day delivery.png" class="card-img-top" alt="Next Day Delivery">
-                    <div class="card-body">
-                        <h5 class="card-title">Next Day Delivery</h5>
-                        <p class="card-text">£2
-                          <br>
-                          <small>Get your gear delivered the next day!</small>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    
+<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          About us
+        </button>
+      </h2>
     </div>
 
-
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        Elite gear is a small Irish business that focuses on making high-quality Gaelic football gear. The company started in 2018 as a small business creating gloves and basic training equipment for local clubs. Over time, they expanded their range to include boots, teamwear, protective equipment, and customised club gear. What began as a small workshop has grown into a trusted brand for players and coaches who want reliable, Gaelic-specific products. Elite gear has a team of about 12 employees working across design, production, customer support, and online sales, and the company continues to grow as more clubs and players look for specialised Gaelic football equipment.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Location
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        We are located in the heart of Dublin, Ireland. Our facility is equipped with the latest technology to ensure we produce the best quality gear for our customers. We welcome visitors to our showroom, where you can see our products firsthand and speak with our knowledgeable staff.
+      </div>
+    </div>
+  </div>
+  
+</div>
 
     <!--Main content end--> 
 
